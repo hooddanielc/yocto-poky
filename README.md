@@ -13,13 +13,14 @@ create a workspace
 mkdir ~/workspace
 ```
 
-run and mount your workspace. don't forget to pass LOCAL_USER_ID
+run in container, workspace will be created and mounted at $ROOT_DIR/../yocto-workspace
 
 ```
-docker run --rm -e LOCAL_USER_ID=${UID} -v $(pwd)/workspace:/data/workspace -ti dhoodlum/yocto-docker /bin/bash
+./run.sh
 ```
 
 directories
 
-- yocto /data/poky
-- workspace /data/workspace
+- poky - /data/tools/poky
+- layers - /data/layers
+- workspace - /data/workspace

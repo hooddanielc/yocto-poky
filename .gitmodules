@@ -1,0 +1,24 @@
+[submodule "tools/poky"]
+	path = tools/poky
+	url = git://git.yoctoproject.org/poky
+	branch = sumo
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = sumo
+[submodule "layers/meta-qt5"]
+	path = layers/meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5
+	branch = sumo
+[submodule "layers/meta-security"]
+	path = layers/meta-security
+	url = git://git.yoctoproject.org/meta-security
+	branch = sumo
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = sumo
+[submodule "layers/meta-rpi"]
+	path = layers/meta-rpi
+	url = git://github.com/jumpnow/meta-rpi
+	branch = sumo

@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"pyshtables.py",
+				"bitbake-cookerdaemon.log",
+				"bitbake.lock",
+				"bitbake.sock"
+			],
+			"folder_exclude_patterns":
+			[
+				"cache",
+				"downloads",
+				"sstate-cache",
+				"tmp"
+			],
+			"path": "/home/saddaddy/src/yocto-workspace"
+		}
+	]
+}

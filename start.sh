@@ -1,3 +1,3 @@
 #!/bin/bash -xe
-source /data/poky/oe-init-build-env /data/workspace
+source /data/tools/poky/oe-init-build-env /data/workspace
 exec "$@"
