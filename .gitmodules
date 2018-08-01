@@ -49,3 +49,21 @@
 [submodule "layers/meta-backports"]
 	path = layers/meta-backports
 	url = https://git.linaro.org/openembedded/meta-backports.git
+[submodule "layers/meta-st-cannes2"]
+	path = layers/meta-st-cannes2
+	url = https://github.com/cpriouzeau/meta-st-cannes2.git
+[submodule "layers/meta-intel"]
+	path = layers/meta-intel
+	url = https://git.yoctoproject.org/git/meta-intel
+[submodule "layers/meta-ti"]
+	path = layers/meta-ti
+	url = https://git.yoctoproject.org/git/meta-ti
+[submodule "layers/meta-virtualization"]
+	path = layers/meta-virtualization
+	url = https://git.yoctoproject.org/git/meta-virtualization
+[submodule "layers/meta-clang"]
+	path = layers/meta-clang
+	url = https://github.com/kraj/meta-clang.git
+[submodule "layers/bitbake"]
+	path = layers/bitbake
+	url = https://github.com/openembedded/bitbake.git
