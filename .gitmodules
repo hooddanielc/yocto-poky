@@ -22,3 +22,30 @@
 	path = layers/meta-rpi
 	url = git://github.com/jumpnow/meta-rpi
 	branch = sumo
+[submodule "layers/openembedded-core"]
+	path = layers/openembedded-core
+	url = git://git.openembedded.org/openembedded-core
+[submodule "meta-qcom"]
+	path = meta-qcom
+	url = https://github.com/ndechesne/meta-qcom.git
+[submodule "layers/meta-qcom"]
+	path = layers/meta-qcom
+	url = https://github.com/ndechesne/meta-qcom.git
+[submodule "layers/meta-rpb"]
+	path = layers/meta-rpb
+	url = https://github.com/96boards/meta-rpb.git
+[submodule "layers/meta-browser"]
+	path = layers/meta-browser
+	url = https://github.com/OSSystems/meta-browser.git
+[submodule "layers/meta-linaro"]
+	path = layers/meta-linaro
+	url = https://git.linaro.org/openembedded/meta-linaro.git
+[submodule "meta-backports"]
+	path = meta-backports
+	url = https://git.linaro.org/openembedded/meta-backports.git
+[submodule "layers/meta-96boards"]
+	path = layers/meta-96boards
+	url = https://github.com/96boards/meta-96boards.git
+[submodule "layers/meta-backports"]
+	path = layers/meta-backports
+	url = https://git.linaro.org/openembedded/meta-backports.git
